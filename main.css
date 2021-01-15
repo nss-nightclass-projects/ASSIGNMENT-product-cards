@@ -1,0 +1,16 @@
+.product-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+}
+
+.product-card {
+  box-shadow: 10px 10px lightgray;
+}
+
+h2 {
+  border: 1px solid lightblue;
+  text-align: center;
+}
