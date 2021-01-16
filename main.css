@@ -10,39 +10,56 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 10px auto;
+  margin: 10px auto 20px;
 
 }
 
 .gear-card {
   border: 3px solid black;
-  padding: 5px;
+  box-shadow: 3px 8px #444444;
   width: 28%;
   margin: 10px 10px;
   background-color: rgb(233, 232, 247);
 }
 
+.gear-card header {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  min-height: 6em;
+  width: 92%;
+  margin: 3% auto 3%;
+  background-color: rgb(483, 483, 580);
+  
+}
 .gear-card h2 {
   text-align: center;
-  min-height: 2em;
 }
-
 .description-section img {
   display: block;
-  width: 95%;
+  width: 92%;
   margin: 0 auto;
+  border: 1px solid lightblue;
+  border-radius: 5px;
 }
 .description-section .description p {
+  padding: 0 4% 0;
   min-height: 3em;
+  text-align: justify;
 }
 .availability {
-  background-color: #2c0b2c;
-  color: white;
+  background-color: #444444;
+  color: yellow;
   text-align: center;
   font-size: 1.2em;
 }
 
+.specifications,.pricing {
+  padding: 0 4% 0;
+}
+
+
 .size_weight, .volume {
+  font-weight: bold;
   margin-left: 5%;
 }
 .specifications footer {
