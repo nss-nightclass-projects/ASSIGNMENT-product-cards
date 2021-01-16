@@ -9,24 +9,31 @@ h1 {
 .skishop-container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 10px auto;
+
 }
 
 .gear-card {
   border: 3px solid black;
   padding: 5px;
-  width: 30%;
+  width: 28%;
   margin: 10px 10px;
   background-color: rgb(233, 232, 247);
 }
 
 .gear-card h2 {
   text-align: center;
+  min-height: 2em;
 }
 
 .description-section img {
   display: block;
   width: 95%;
   margin: 0 auto;
+}
+.description-section .description p {
+  min-height: 3em;
 }
 .availability {
   background-color: #2c0b2c;
