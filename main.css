@@ -1,16 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .product-container {
   display: flex;
   flex-flow: row wrap;
-  padding: 50px;
-  margin: 50px;
+  padding: 10px;
+  margin: 10px;
   text-align: center;
 }
 
 .product-card {
-  box-shadow: 10px 10px lightgray;
+  box-shadow: 1px 1px 1px 1px lightgray;
+  width: 30%;
+  height: 550px;
+  padding: 10px;
+  margin: 10px;
 }
 
 h2 {
   border: 1px solid lightblue;
   text-align: center;
+}
+
+.description {
+  text-align: justify;
+}
+
+.specifications {
+  font-weight: bold;
+}
+
+.pricing {
+  font-weight: bold; 
+}
+
+.availability {
+  color: yellow;
+  background-color: darkgray;
+  text-align: left;
 }
