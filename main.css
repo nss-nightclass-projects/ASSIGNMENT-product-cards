@@ -1,0 +1,10 @@
+body {
+    width: 80%;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
