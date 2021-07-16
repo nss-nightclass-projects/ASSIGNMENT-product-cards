@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    margin: 10px;
+    list-style: none;
+    flex: 0 0 33.333333%;
+}
