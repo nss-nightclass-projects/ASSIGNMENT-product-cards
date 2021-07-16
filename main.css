@@ -1,0 +1,62 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 33%;
+}
+
+.card {
+    /* border: solid 1px lightblue; */
+    box-shadow: 2px 1px 1px;
+    margin: 5px;
+    max-width: 30%;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.pricing {
+    font-weight: bold;
+    text-indent: 5px;
+    margin: 3px;
+}
+
+.specifications {
+    font-weight: bold;
+    text-indent: 5px;
+    margin: 3px;
+}
+
+.section_1 {
+    word-wrap: break-word;
+}
+
+.details {
+    text-indent: 8px;
+}
+
+.availability {
+    background-color: darkgray;
+    color: yellow;
+    margin: 5px;
+}
+
+.title {
+    border: solid 1px lightblue;
+}
+
+footer {
+    font-size: smaller;
+    font-weight: normal;
+    margin: 3px;
+}
+
+.description {
+    margin: 5px;
+}
